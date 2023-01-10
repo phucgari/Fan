@@ -40,7 +40,7 @@ public class Fan {
     public String toString() {
         String status;
         String speed="";
-        if(on){
+        if(isOn()){
             status="fan is on";
         }else{
             status="fan is off";
